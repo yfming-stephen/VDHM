@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="419b322d-8266-4fb3-a661-252b7048f75d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tempBarCodeImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyLinkerApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EasyLinkerApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/EasyLinkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/EasyLinkerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/bean/RealTimeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/bean/RealTimeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mailconfig/JavaMailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mailconfig/JavaMailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttMessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/adapter/EMqttPahoMessageDrivenChannelAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/adapter/EMqttPahoMessageDrivenChannelAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientCmdReplyMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientCmdReplyMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientOnAndOfflineWillMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientOnAndOfflineWillMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/InMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/InMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/RealTimeMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/RealTimeMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzJobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzJobFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/job/ScheduleSendMessageJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/job/ScheduleSendMessageJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/pojo/BaseJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/pojo/BaseJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/scheduler/QuartzJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/scheduler/QuartzJobScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/resttemplateconfig/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/resttemplateconfig/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/CustomUsernamePasswordFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/CustomUsernamePasswordFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/LoginParameterCatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/LoginParameterCatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/OpenIdAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/OpenIdAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/AnonymousHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/AnonymousHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/CustomAuthenticationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/CustomAuthenticationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/FrontHelperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/FrontHelperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/UserLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/UserLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/upyunconfig/UpYunConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/upyunconfig/UpYunConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/webconfig/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/webconfig/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/DailyLogType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/DailyLogType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/authority/CommonRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/authority/CommonRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/FrameworkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/FrameworkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/LogicException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/LogicException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/FailureMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/FailureMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/SuccessMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/SuccessMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/TipMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/TipMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/MqttTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/MqttTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/RealTimeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/RealTimeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/result/ReturnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/result/ReturnResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DataExportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DataExportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/EnterpriseUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/EnterpriseUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/HTTPApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/HTTPApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SuperAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SuperAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserRegisterEtcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserRegisterEtcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/WxMaUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/WxMaUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AccessLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AccessLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AppUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AppUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DailyLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DailyLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceJobRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceJobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceOnAndOffLineLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceOnAndOffLineLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/EMQInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/EMQInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/LocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/UserRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interceptor/AccessLogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interceptor/AccessLogInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/DemoPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/DemoPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/InterceptorPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/InterceptorPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/PluginInstaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/PluginInstaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/TestPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/TestPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/EMQInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/EMQInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/AccessLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/AccessLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DailyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DailyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DeviceOnAndOffLineLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DeviceOnAndOffLineLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AccessLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AccessLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DailyLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DailyLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceOnAndOffLineLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceOnAndOffLineLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/EMQInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/EMQInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/LocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/BarCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/BarCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/HttpTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/HttpTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/Image2Base64Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/Image2Base64Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/LogPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/LogPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/QRCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/QRCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/RandomTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/RandomTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/UserRoleTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/UserRoleTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/WarningUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/WarningUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/etc/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/etc/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/etc/simple_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/etc/simple_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/quartz.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/quartz.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar21.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar29.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar30.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar34.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar37.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar38.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar39.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar40.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar41.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar42.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar43.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar44.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar45.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar46.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar47.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar49.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/easylinker/proxy/server/app/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/easylinker/proxy/server/app/ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Commander">
+    <leftPanel view="Project" />
+    <rightPanel view="Project" />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="Cvs2Configuration">
+    <option name="ON_FILE_ADDING" value="0" />
+    <option name="ON_FILE_REMOVING" value="0" />
+    <option name="PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="SHOW_UPDATE_OPTIONS" value="true" />
+    <option name="SHOW_ADD_OPTIONS" value="true" />
+    <option name="SHOW_REMOVE_OPTIONS" value="true" />
+    <option name="MERGING_MODE" value="0" />
+    <option name="MERGE_WITH_BRANCH1_NAME" value="HEAD" />
+    <option name="MERGE_WITH_BRANCH2_NAME" value="HEAD" />
+    <option name="RESET_STICKY" value="false" />
+    <option name="CREATE_NEW_DIRECTORIES" value="true" />
+    <option name="DEFAULT_TEXT_FILE_SUBSTITUTION" value="kv" />
+    <option name="PROCESS_UNKNOWN_FILES" value="false" />
+    <option name="PROCESS_DELETED_FILES" value="false" />
+    <option name="SHOW_EDIT_DIALOG" value="true" />
+    <option name="RESERVED_EDIT" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <option name="SHOW_CHECKOUT_OPTIONS" value="true" />
+    <option name="CHECKOUT_DATE_OR_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="UPDATE_DATE_OR_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="SHOW_CHANGES_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="SHOW_OUTPUT" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="ADD_WATCH_INDEX" value="0" />
+    <option name="REMOVE_WATCH_INDEX" value="0" />
+    <option name="UPDATE_KEYWORD_SUBSTITUTION" />
+    <option name="MAKE_NEW_FILES_READONLY" value="false" />
+    <option name="SHOW_CORRUPTED_PROJECT_FILES" value="0" />
+    <option name="TAG_AFTER_FILE_COMMIT" value="false" />
+    <option name="TAG_AFTER_FILE_COMMIT_NAME" value="" />
+    <option name="TAG_AFTER_PROJECT_COMMIT" value="false" />
+    <option name="TAG_AFTER_PROJECT_COMMIT_NAME" value="" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="SAVE_LAST_COMMIT_MESSAGE" value="true" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_FILE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints converted="true" />
+    <exception_breakpoints converted="true">
+      <breakpoint_any>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="SUSPEND_VM" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CONDITION" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="LOG_MESSAGE" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INVERSE_CLASS_FILLTERS" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+      </breakpoint_any>
+    </exception_breakpoints>
+    <field_breakpoints converted="true" />
+    <method_breakpoints converted="true" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="TOSTRING_CLASSES_ENABLED" value="false" />
+    <option name="VALUE_LOOKUP_DELAY" value="700" />
+    <option name="DEBUGGER_TRANSPORT" value="0" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="HIDE_DEBUGGER_ON_PROCESS_TERMINATION" value="false" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CONSTRUCTORS" value="false" />
+    <option name="STEP_THREAD_SUSPEND_POLICY" value="SuspendThread" />
+    <default_breakpoint_settings>
+      <option name="NOTIFY_CAUGHT" value="true" />
+      <option name="NOTIFY_UNCAUGHT" value="true" />
+      <option name="WATCH_MODIFICATION" value="true" />
+      <option name="WATCH_ACCESS" value="true" />
+      <option name="WATCH_ENTRY" value="true" />
+      <option name="WATCH_EXIT" value="true" />
+      <option name="ENABLED" value="true" />
+      <option name="SUSPEND_VM" value="true" />
+      <option name="COUNT_FILTER_ENABLED" value="false" />
+      <option name="COUNT_FILTER" value="0" />
+      <option name="CONDITION_ENABLED" value="false" />
+      <option name="CONDITION" />
+      <option name="LOG_ENABLED" value="false" />
+      <option name="LOG_EXPRESSION_ENABLED" value="false" />
+      <option name="LOG_MESSAGE" />
+      <option name="CLASS_FILTERS_ENABLED" value="false" />
+      <option name="INVERSE_CLASS_FILLTERS" value="false" />
+      <option name="SUSPEND_POLICY" value="SuspendAll" />
+    </default_breakpoint_settings>
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="EjbViewSettings">
+    <EjbView showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="HIDE_WARNINGS" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SHOW_PACKAGES" value="false" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SORT_ALPHABETICALLY" value="false" />
+  </component>
+  <component name="InspectionManager">
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SPLITTER_PROPORTION" value="0.5" />
+    <profile name="Default" />
+  </component>
+  <component name="LvcsProjectConfiguration">
+    <option name="ADD_LABEL_ON_PROJECT_OPEN" value="true" />
+    <option name="ADD_LABEL_ON_PROJECT_COMPILATION" value="true" />
+    <option name="ADD_LABEL_ON_FILE_PACKAGE_COMPILATION" value="true" />
+    <option name="ADD_LABEL_ON_PROJECT_MAKE" value="true" />
+    <option name="ADD_LABEL_ON_RUNNING" value="true" />
+    <option name="ADD_LABEL_ON_DEBUGGING" value="true" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.5" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.8.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PerforceConfiguration">
+    <option name="PORT" value="magic:1666" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="CLIENT" value="" />
+    <option name="TRACE" value="false" />
+    <option name="PERFORCE_STATUS" value="true" />
+    <option name="CHANGELIST_OPTION" value="false" />
+    <option name="SYSTEMROOT" value="" />
+    <option name="P4_EXECUTABLE" value="p4" />
+    <option name="SHOW_BRANCH_HISTORY" value="false" />
+    <option name="GENERATE_COMMENT" value="false" />
+    <option name="SYNC_OPTION" value="Sync" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="SAVE_LAST_COMMIT_MESSAGE" value="true" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_FILE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="27KtGAsvLFtjgdidEToVqHd1Frs" />
+  <component name="ProjectViewSettings">
+    <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
+    <view id="ProjectPane">
+      <expanded_node type="directory" url="file://$PROJECT_DIR$" />
+    </view>
+    <view id="SourcepathPane" />
+    <view id="ClasspathPane" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../boot-01-helloworld" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration selected="false" default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easylinker.proxy.server.app.Main" />
+      <module name="easyfarming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylinker.proxy.server.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easyfarming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylinker.proxy.server.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.easylinker.proxy.server.app" />
+      <option name="MAIN_CLASS_NAME" value="com.easylinker.proxy.server.app.ApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ApplicationTests" />
+        <item itemvalue="JUnit.Whole project (1)" />
+        <item itemvalue="JUnit.Whole project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StarteamConfiguration">
+    <option name="SERVER" value="" />
+    <option name="PORT" value="49201" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="PROJECT" value="" />
+    <option name="VIEW" value="" />
+    <option name="ALTERNATIVE_WORKING_PATH" value="" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="SORT_MODE" value="0" />
+    <option name="GROUP_INHERITED" value="true" />
+    <option name="AUTOSCROLL_MODE" value="true" />
+    <option name="SHOW_FIELDS" value="true" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+    <option name="GROUP_GETTERS_AND_SETTERS" value="true" />
+    <option name="SHOW_INHERITED" value="false" />
+    <option name="HIDE_NOT_PUBLIC" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="AUTO_ADD_FILES" value="0" />
+    <option name="AUTO_DEL_FILES" value="0" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="419b322d-8266-4fb3-a661-252b7048f75d" name="Changes" comment="" />
+      <created>1649080510287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649080510287</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1032" height="746" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="-1" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="7" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="0" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="1" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="1" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="-1" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.4" order="6" />
+      <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="-1" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="1" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="2" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="2" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.4" order="4" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="sliding" type="sliding" visible="false" weight="0.4" order="0" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="2" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.33" order="0" />
+      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="3" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="docked" type="docked" visible="false" weight="0.25" order="5" />
+    </layout>
+  </component>
+  <component name="VssConfiguration">
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="COMMENT" value="" />
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+      <option name="FILE_TYPE" value="0" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="0" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <DiffOptions>
+      <option name="IGNORE_WHITE_SPACE" value="false" />
+      <option name="IGNORE_CASE" value="false" />
+    </DiffOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </GetOptions>
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <option name="SHOW_CHECKOUT_OPTIONS" value="true" />
+    <option name="SHOW_ADD_OPTIONS" value="true" />
+    <option name="SHOW_UNDOCHECKOUT_OPTIONS" value="true" />
+    <option name="SHOW_DIFF_OPTIONS" value="true" />
+    <option name="SHOW_GET_OPTIONS" value="true" />
+    <option name="USE_EXTERNAL_DIFF" value="false" />
+    <option name="EXTERNAL_DIFF_PATH" value="" />
+    <option name="REUSE_LAST_COMMENT" value="false" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+  </component>
+  <component name="WebViewSettings">
+    <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException" package="com.mysql.jdbc.exceptions.jdbc4" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugins>
+    <plugin>
+        <name>demoPlugin1</name>
+        <version>1.0</version>
+        <author>wwhai</author>
+        <desc>A test Plugin</desc>
+        <packge>com.wwhai.plugin.demo.DemoPlugin</packge>
+    </plugin>
+    <plugin>
+        <name>demoPlugin2</name>
+        <version>1.0</version>
+        <author>wwhai</author>
+        <desc>A test Plugin</desc>
+        <packge>com.wwhai.plugin.demo.DemoPlugin</packge>
+    </plugin>
+</plugins>
+

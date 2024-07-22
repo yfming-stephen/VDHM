@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="www.aniuniu.xin" id="615555d5-0005-41fa-84bc-c8ee56fd4587" port="22" customName="aliyun" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="www.aniuniu.xin" id="d4c310ea-181d-4054-b34f-f4d9339d3a09" port="22" customName="aliyun" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="www.aniuniu.xin" id="5cb6f4ba-6ef5-4f50-964b-f90dcfff4250" port="22" customName="aliyun" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="www.aniuniu.xin" id="02cb45e3-34d5-4673-90d4-50aee459aac5" port="22" customName="aliyun" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="www.aniuniu.xin" id="f836f355-cc91-4341-a12e-f3620abefcae" port="22" customName="aliyun" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="www.aniuniu.xin" id="5fcdf41d-5baf-402a-9c53-1bb041e34664" port="22" customName="aliyun" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

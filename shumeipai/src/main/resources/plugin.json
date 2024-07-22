@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "plugins": [
+    {
+      "name": "demoPlugin",
+      "version": "1.0",
+      "author": "wwhai",
+      "desc": "A test Plugin",
+      "package": "com.easylinker.proxy.server.app.interfaces.DemoPlugin"
+    },
+    {
+      "name": "testPlugin",
+      "version": "1.0",
+      "author": "wwhai",
+      "desc": "A test Plugin",
+      "package": "com.easylinker.proxy.server.app.interfaces.TestPlugin"
+    }
+  ]
+}

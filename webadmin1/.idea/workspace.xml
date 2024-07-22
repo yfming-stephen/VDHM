@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65a40fbc-ac19-4a8a-8db1-6531d98c88e9" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.09264ccf4dabbadda0a14885c88f4f2f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/theme-green/color-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/css/theme-green/color-green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/fonts/element-icons.b02bdc1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/1.9b29622.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/0.5a09e6198fcc864ab587.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/1.45314bc12689584ffb7c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/10.72ae8bd51686cf222f42.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/11.cbffbb1b4918388557dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/12.ccaee82e1de5afca39cc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/13.b8d13f53261badfb870e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/14.2c3dfcdc0a4c0a5e83fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/15.e1aff25807fe113a888d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/16.83022532d1c874a841be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/17.b0ac4df8f0c9d2bd747e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/18.24f4b64936b8e62e9a01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/19.478af5b6a670d16dd440.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/2.b1be9d465fe79375003d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/20.98d920bcf9c5be4e1a51.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/21.fc3aca7d22f3915bb943.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/24.63db9ae2a5ec4468a18d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/3.8259a536d958caa85e7e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/4.6cf5747755c02ed3ed3e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/5.f0467e198f78e982fed2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/6.bad744b5d9a7848ffc2c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/7.6c2c1432a64238b96edd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/8.9375a3ddcec572b84eb2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/9.a60620b0b4dace7021f6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.7eb6edab9b7314c3f0bf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.7a98d03c227dd3dc0fe4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.ec8ade09d167893709bb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Charts/lineMarker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Charts/lineMarker.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/DeviceMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/DeviceMap.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/GroupManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/GroupManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/RealTimeData.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/RealTimeData.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/Trigger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/Trigger.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/admin/DeviceManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/admin/DeviceManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page/tui/Tui.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/tui/Tui.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/theme-green/color-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/theme-green/color-green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vue-dragging.es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vue-dragging.es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/aside.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/breadcrumb-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/breadcrumb-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/breadcrumb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/button-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/button-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/carousel-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/carousel-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/checkbox-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/checkbox-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/checkbox-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/checkbox-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/col.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/col.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/collapse-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/collapse-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/color-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/container.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/display.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/display.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/dropdown-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/dropdown-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/dropdown-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/fonts/element-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/fonts/element-icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/fonts/element-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/fonts/element-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/form-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/form-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/menu-item-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/menu-item-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/menu-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/menu-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/notification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/option-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/option-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/option.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/option.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/popper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/popper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/progress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/radio-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/radio-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/rate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/rate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/select-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/select-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/submenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/submenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/tab-pane.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/tab-pane.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/theme/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/theme/upload.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>realtime</find>
+      <find>smp.rui</find>
+      <find>easyfar</find>
+      <find>ssl</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/common/Home.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/admin/DeviceManage.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/RealTimeData.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/DeviceMap.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/Sidebar.vue" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="171" />
+    <option name="y" value="63" />
+    <option name="width" value="2737" />
+    <option name="height" value="1582" />
+  </component>
+  <component name="ProjectId" id="1yw1Zov6XefDDhDNE7JUb9r7TfN" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webadmin1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webadmin1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webadmin1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webadmin1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/build/build.js" working-dir="$PROJECT_DIR$/build">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.mjs" type="NodeJSConfigurationType" temporary="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.build.js" />
+      <item itemvalue="Node.js.main.mjs" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.mjs" />
+        <item itemvalue="Node.js.build.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65a40fbc-ac19-4a8a-8db1-6531d98c88e9" name="Default Changelist" comment="" />
+      <created>1608881802676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608881802676</updated>
+      <workItem from="1608881803999" duration="1128000" />
+      <workItem from="1619507884123" duration="114000" />
+      <workItem from="1633147224343" duration="25000" />
+      <workItem from="1633147341541" duration="462000" />
+      <workItem from="1633147896121" duration="11646000" />
+      <workItem from="1633585499991" duration="545000" />
+      <workItem from="1633857247488" duration="1442000" />
+      <workItem from="1649640809349" duration="3341000" />
+      <workItem from="1649684914743" duration="16000" />
+      <workItem from="1649684940295" duration="1878000" />
+      <workItem from="1650107198165" duration="4600000" />
+      <workItem from="1650111842706" duration="978000" />
+      <workItem from="1650189580915" duration="2570000" />
+      <workItem from="1650260767042" duration="1151000" />
+      <workItem from="1650262778417" duration="9385000" />
+      <workItem from="1652077524592" duration="1011000" />
+      <workItem from="1652320876275" duration="6551000" />
+      <workItem from="1652447040226" duration="1264000" />
+      <workItem from="1652505645637" duration="8890000" />
+      <workItem from="1652582874162" duration="5239000" />
+      <workItem from="1652601009550" duration="1510000" />
+      <workItem from="1652756978234" duration="2459000" />
+      <workItem from="1652844747649" duration="1191000" />
+      <workItem from="1652884273010" duration="1294000" />
+      <workItem from="1652926577839" duration="3348000" />
+      <workItem from="1652963978402" duration="2092000" />
+      <workItem from="1653104703851" duration="5438000" />
+      <workItem from="1681142711795" duration="875000" />
+      <workItem from="1682184759516" duration="1286000" />
+      <workItem from="1683176119698" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1729000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="171" y="63" width="2737" height="1582" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27430046" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32947233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/page/admin/DeviceManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6795">
+          <caret line="457" column="13" selection-start-line="457" selection-start-column="13" selection-end-line="457" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/page/RealTimeData.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5235">
+          <caret line="356" column="18" selection-start-line="356" selection-start-column="18" selection-end-line="356" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Sidebar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/page/DeviceMap.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="204" column="36" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1027">
+          <caret line="85" column="14" lean-forward="true" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
