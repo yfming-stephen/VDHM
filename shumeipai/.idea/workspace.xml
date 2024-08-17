@@ -1,0 +1,2303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98256a25-d8b4-4a3e-ab6a-1b149c28f6b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tempBarCodeImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyLinkerApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EasyLinkerApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/EasyLinkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/EasyLinkerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/bean/RealTimeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/bean/RealTimeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mailconfig/JavaMailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mailconfig/JavaMailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/MqttMessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/adapter/EMqttPahoMessageDrivenChannelAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/adapter/EMqttPahoMessageDrivenChannelAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientCmdReplyMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientCmdReplyMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientOnAndOfflineWillMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/ClientOnAndOfflineWillMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/InMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/InMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/RealTimeMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/mqttconfig/handler/RealTimeMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzJobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/core/QuartzJobFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/job/ScheduleSendMessageJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/job/ScheduleSendMessageJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/pojo/BaseJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/pojo/BaseJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/scheduler/QuartzJobScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/quartz/scheduler/QuartzJobScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/resttemplateconfig/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/resttemplateconfig/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/CustomUsernamePasswordFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/CustomUsernamePasswordFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/LoginParameterCatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/LoginParameterCatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/OpenIdAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/filter/OpenIdAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/AnonymousHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/AnonymousHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/CustomAuthenticationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/CustomAuthenticationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/FrontHelperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/FrontHelperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/UserLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/securityconfig/handler/UserLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/upyunconfig/UpYunConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/upyunconfig/UpYunConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/webconfig/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/config/webconfig/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/DailyLogType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/DailyLogType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/authority/CommonRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/authority/CommonRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/FrameworkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/FrameworkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/LogicException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/exception/LogicException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/FailureMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/FailureMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/SuccessMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/SuccessMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/TipMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/message/TipMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/MqttTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/MqttTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/RealTimeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/mqtt/RealTimeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/result/ReturnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/constants/result/ReturnResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DataExportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DataExportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/EnterpriseUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/EnterpriseUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/HTTPApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/HTTPApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SuperAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SuperAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserRegisterEtcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/UserRegisterEtcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/WxMaUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/WxMaUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AccessLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AccessLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AppUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/AppUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DailyLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DailyLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceJobRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceJobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceOnAndOffLineLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceOnAndOffLineLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/DeviceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/EMQInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/EMQInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/LocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/dao/UserRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interceptor/AccessLogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interceptor/AccessLogInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/DemoPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/DemoPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/InterceptorPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/InterceptorPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/PluginInstaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/PluginInstaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/TestPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/interfaces/TestPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/EMQInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/EMQInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/AccessLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/AccessLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DailyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DailyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DeviceOnAndOffLineLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/daily/DeviceOnAndOffLineLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/DeviceScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/device/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/model/user/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AccessLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AccessLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DailyLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DailyLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceOnAndOffLineLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceOnAndOffLineLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceScopeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceScopeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/EMQInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/EMQInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/LocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/service/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/BarCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/BarCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/HttpTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/HttpTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/Image2Base64Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/Image2Base64Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/LogPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/LogPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/MD5Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/QRCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/QRCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/RandomTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/RandomTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/UserRoleTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/UserRoleTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/WarningUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/utils/WarningUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/etc/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/etc/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/etc/simple_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/etc/simple_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/quartz.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/quartz.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar21.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar29.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar30.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar34.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar37.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar38.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar39.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar40.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar41.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar42.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar43.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar44.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar45.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar46.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar47.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar49.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/avatar/avatar9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/easylinker/proxy/server/app/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/easylinker/proxy/server/app/ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="EasyLinkerApplication/invalid/JPA" />
+      <facet id="EasyLinkerApplication/invalid/Spring" />
+      <facet id="EasyLinkerApplication/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TrEF8TeqJzVrZCqTUMNoqKwXVs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554280645533" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2D92A42ECA70E7691D538CBB508BBC3C" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://118.31.8.230:8888" />
+          <option name="urlPath" value="/hbase/jsonInsert" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tableName" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="url" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &#9;&quot;title&quot;: &quot;南京大屠杀幸存者杨桂珍去世 终年102岁-中新网&quot;, &#9;&quot;authors&quot;: { &#9;&#9;&quot;author1&quot;: &quot;张燕玲&quot;, &#9;&#9;&quot;author2&quot;: &quot;张三&quot;, &#9;&#9;&quot;author3&quot;: &quot;**&quot; &#9;}, &#9;&quot;article&quot;: &quot;中新网11月6日电 据侵华日军南京大屠杀遇难同胞纪念馆微信公众号消息，南京大屠杀幸存者杨桂珍于11月5日晚去世，终年102岁。杨桂珍。 图片来源：侵华日军南京大屠杀遇难同胞纪念馆微信公众号。杨桂珍生前曾在证词中提到：“ 南京大屠杀暴行发生时， 我20岁， 日本人到处烧房子、 杀人， 我们只能藏在地洞里躲避追捕， 我为了防止被日本人施暴， 就用土灰糊在脸上。 后来， 为了躲避日本人， 我们一家跟着同乡跑反， 途中日本飞机仍在炮轰。”据了解， 一周前， 杨桂珍奶奶身体不适， 侵华日军受害者援助协会曾专门安排工作人员和省人医医生上门慰问。 &quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2D92A42ECA70E7691D538CBB508BBC3C" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://118.31.8.230:8888" />
+          <option name="urlPath" value="/hbase/jsonInsert" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="tableName" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="url" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &#9;&quot;title&quot;: &quot;南京大屠杀幸存者杨桂珍去世 终年102岁-中新网&quot;, &#9;&quot;authors&quot;: { &#9;&#9;&quot;author1&quot;: &quot;张燕玲&quot;, &#9;&#9;&quot;author2&quot;: &quot;张三&quot;, &#9;&#9;&quot;author3&quot;: &quot;**&quot; &#9;}, &#9;&quot;article&quot;: &quot;中新网11月6日电 据侵华日军南京大屠杀遇难同胞纪念馆微信公众号消息，南京大屠杀幸存者杨桂珍于11月5日晚去世，终年102岁。杨桂珍。 图片来源：侵华日军南京大屠杀遇难同胞纪念馆微信公众号。杨桂珍生前曾在证词中提到：“ 南京大屠杀暴行发生时， 我20岁， 日本人到处烧房子、 杀人， 我们只能藏在地洞里躲避追捕， 我为了防止被日本人施暴， 就用土灰糊在脸上。 后来， 为了躲避日本人， 我们一家跟着同乡跑反， 途中日本飞机仍在炮轰。”据了解， 一周前， 杨桂珍奶奶身体不适， 侵华日军受害者援助协会曾专门安排工作人员和省人医医生上门慰问。 &quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2D92A42ECA70E7691D538CBB508BBC3C" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2D92A42ECA70E7691D538CBB508BBC3C" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527x" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2D92A42ECA70E7691D538CBB508BBC3C" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getRecordByHash/xxxx" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="94D7ECA6436D554C81826E0F1AEDEE9F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getRecordByHash/xxxx" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="94D7ECA6436D554C81826E0F1AEDEE9F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getRecordByHash/xxx" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="94D7ECA6436D554C81826E0F1AEDEE9F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getGpsByHash/xxxx" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="94D7ECA6436D554C81826E0F1AEDEE9F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive/getGpsByHash/xxxx" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="94D7ECA6436D554C81826E0F1AEDEE9F" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/drive" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://plus.4ggogo.com" />
+          <option name="urlPath" value="/web-in/boss/auth.html" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/xml; charset=utf-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;  &lt;Request&gt;    &lt;Datatime&gt;2018-10-21T14:07:33.136+08:00&lt;/Datatime&gt;     &lt;Authorization&gt;      &lt;AppKey&gt;60c1afb8a14148629ee8a54b1156d5a7&lt;/AppKey&gt;       &lt;Sign&gt;39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df&lt;/Sign&gt;       &lt;SecInterface&gt;SHUANGCHUANG&lt;/SecInterface&gt;       &lt;AppSecret&gt;68e9503c9bb84ccfb91966e0670457b4&lt;/AppSecret&gt;    &lt;/Authorization&gt;  &lt;/Request&gt; " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/updateGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;groupId&quot;:&quot;1532428497255&quot;,&quot;comment&quot;:&quot;&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/updateGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;groupId&quot;:&quot;111&quot;,&quot;comment&quot;:&quot;&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/updateGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;groupId&quot;:&quot;111&quot;,&quot;comment&quot;:&quot;2&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/updateGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;groupId&quot;:&quot;111&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/updateGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/updateGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;comment&quot;:&quot;onc2om&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;comment2&quot;:&quot;onc2om&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001 &quot;,&quot;comment&quot;:&quot;oncom&quot;,&quot;comment2&quot;:&quot;onc2om&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;comment&quot;:&quot;oncom&quot;,&quot;comment2&quot;:&quot;onc2om&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;comment&quot;:&quot;oncom&quot;,&quot;comment2&quot;:&quot;oncom&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;GROUP0001&quot;,&quot;comment&quot;:&quot;oncom&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;groupName&quot;:&quot;BeJson&quot;,&quot;comment&quot;:&quot;oncom&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json, text/plain, */*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ groupName:&quot;GROUP0001&quot;, comment:&quot;备注信息&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{groupName: &quot;GROUP0001&quot;, comment: &quot;备注信息&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{groupName: &quot;GROUP0001&quot;, comment: &quot;备注信息&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{groupName:&quot;GROUP0001&quot;,comment:&quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="smp.rui0.cn" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{groupName:&quot;GROUP0001&quot;,comment:&quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{groupName:&quot;GROUP0001&quot;,comment:&quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="DD485913D326945370D05EAF9A30A390" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://smp.rui0.cn" />
+          <option name="urlPath" value="api/user/addGroup" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{groupName:&quot;GROUP0001&quot;,comment:&quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="E358CF9B4D5897E860EC2C33A1EAAD1E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="api/api/v2/management/nodes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="E358CF9B4D5897E860EC2C33A1EAAD1E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/v2/management/nodes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="E358CF9B4D5897E860EC2C33A1EAAD1E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="api/v2/management/nodes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="E358CF9B4D5897E860EC2C33A1EAAD1E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="E358CF9B4D5897E860EC2C33A1EAAD1E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="E358CF9B4D5897E860EC2C33A1EAAD1E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="3F803AC0EA1C80F449C482CD05B4F31E" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134:18083" />
+          <option name="urlPath" value="/api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://39.108.153.134:18083" />
+          <option name="urlPath" value="/api/v2/routes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8070" />
+          <option name="urlPath" value="/api/device/getDeviceDetail/1532616577046" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v1/sendCmdToDevice" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;deviceId&quot;: 1536639233643,      &quot;payload&quot;: {         &quot;cmd&quot;: &quot;PING&quot;     } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v1/sendCmdToDevice" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{{deviceId: 1536639233643, payload: {cmd: &quot;PING&quot;}}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v1/sendCmdToDevice" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{deviceId: 1536639233643, payload: {cmd: &quot;PING&quot;}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v1/sendCmdToDevice" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="deviceId : 1536639233643 payload : {cmd: &quot;PING&quot;} cmd : &quot;PING&quot;" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="39.108.153.134" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="8147AD333AA2F9F6C27FF8C65F95BD9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://39.108.153.134" />
+          <option name="urlPath" value="/api/api/v1/sendCmdToDevice" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{deviceId: 1536639233643, payload: {cmd: &quot;PING&quot;}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -U idea:idea" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AliLiveUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easylinker.proxy.server.app.utils.AliLiveUtil" />
+      <module name="EasyLinkerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylinker.proxy.server.app.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easylinker.proxy.server.app.Main" />
+      <module name="EasyLinkerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylinker.proxy.server.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AliLiveUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98256a25-d8b4-4a3e-ab6a-1b149c28f6b4" name="Default Changelist" comment="" />
+      <created>1533056394302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533056394302</updated>
+      <workItem from="1533056396006" duration="202000" />
+      <workItem from="1534048368129" duration="10555000" />
+      <workItem from="1535010224268" duration="459000" />
+      <workItem from="1535011044862" duration="1291000" />
+      <workItem from="1535015305390" duration="2226000" />
+      <workItem from="1535097677416" duration="6787000" />
+      <workItem from="1535126360329" duration="268000" />
+      <workItem from="1535126680838" duration="12000" />
+      <workItem from="1535126706984" duration="4792000" />
+      <workItem from="1535167768653" duration="32621000" />
+      <workItem from="1535359483509" duration="3841000" />
+      <workItem from="1535429464909" duration="373000" />
+      <workItem from="1535518659888" duration="4810000" />
+      <workItem from="1535623430548" duration="3000" />
+      <workItem from="1535626471010" duration="712000" />
+      <workItem from="1535685798448" duration="26814000" />
+      <workItem from="1536509088384" duration="760000" />
+      <workItem from="1536566757872" duration="4895000" />
+      <workItem from="1536805641697" duration="18686000" />
+      <workItem from="1537152746104" duration="16722000" />
+      <workItem from="1537178011494" duration="7029000" />
+      <workItem from="1537348898840" duration="11427000" />
+      <workItem from="1537623092744" duration="4982000" />
+      <workItem from="1537759237012" duration="10977000" />
+      <workItem from="1538828733447" duration="17000" />
+      <workItem from="1539236463004" duration="2586000" />
+      <workItem from="1539534590467" duration="5000" />
+      <workItem from="1539534603424" duration="7412000" />
+      <workItem from="1540043894678" duration="4708000" />
+      <workItem from="1540115305214" duration="597000" />
+      <workItem from="1540119537196" duration="338000" />
+      <workItem from="1540197367264" duration="605000" />
+      <workItem from="1540271340713" duration="107000" />
+      <workItem from="1540450070834" duration="450000" />
+      <workItem from="1540472473664" duration="220000" />
+      <workItem from="1540478922415" duration="23418000" />
+      <workItem from="1540713769343" duration="4691000" />
+      <workItem from="1540908270317" duration="240000" />
+      <workItem from="1541043616721" duration="4360000" />
+      <workItem from="1541133799386" duration="2817000" />
+      <workItem from="1541408908696" duration="4164000" />
+      <workItem from="1541817343885" duration="811000" />
+      <workItem from="1542175875058" duration="349000" />
+      <workItem from="1542192891894" duration="3932000" />
+      <workItem from="1542353015414" duration="300000" />
+      <workItem from="1542353351932" duration="389000" />
+      <workItem from="1542353813524" duration="4777000" />
+      <workItem from="1542814933578" duration="729000" />
+      <workItem from="1542881450112" duration="303000" />
+      <workItem from="1542882820533" duration="917000" />
+      <workItem from="1543824765599" duration="2002000" />
+      <workItem from="1543835863040" duration="467000" />
+      <workItem from="1544181692761" duration="1456000" />
+      <workItem from="1544696098932" duration="336000" />
+      <workItem from="1545030918272" duration="3574000" />
+      <workItem from="1545057230518" duration="3000" />
+      <workItem from="1545281459189" duration="21000" />
+      <workItem from="1545877253533" duration="618000" />
+      <workItem from="1545884564656" duration="216000" />
+      <workItem from="1547040774217" duration="881000" />
+      <workItem from="1547102570727" duration="545000" />
+      <workItem from="1547283611232" duration="78000" />
+      <workItem from="1547283720979" duration="222000" />
+      <workItem from="1547291821675" duration="2394000" />
+      <workItem from="1547637448581" duration="1000" />
+      <workItem from="1551964393747" duration="215000" />
+      <workItem from="1553676300882" duration="56000" />
+      <workItem from="1553759156124" duration="942000" />
+      <workItem from="1554279707779" duration="920000" />
+      <workItem from="1554716577766" duration="291000" />
+      <workItem from="1556631017843" duration="448000" />
+      <workItem from="1556672110032" duration="831000" />
+      <workItem from="1556672946188" duration="288000" />
+      <workItem from="1556673271252" duration="738000" />
+      <workItem from="1556849865648" duration="747000" />
+      <workItem from="1559347457367" duration="574000" />
+      <workItem from="1560082938896" duration="71000" />
+      <workItem from="1565344051124" duration="620000" />
+      <workItem from="1567565627501" duration="324000" />
+      <workItem from="1568161242596" duration="2000" />
+      <workItem from="1569372144402" duration="1062000" />
+      <workItem from="1569411400454" duration="1000" />
+      <workItem from="1570548272798" duration="1243000" />
+      <workItem from="1570580321402" duration="5027000" />
+      <workItem from="1570586086901" duration="558000" />
+      <workItem from="1572403798016" duration="1115000" />
+      <workItem from="1573007075969" duration="16000" />
+      <workItem from="1573559700668" duration="743000" />
+      <workItem from="1573610189618" duration="444000" />
+      <workItem from="1573612415350" duration="37000" />
+      <workItem from="1574209217782" duration="458000" />
+      <workItem from="1574209713443" duration="200000" />
+      <workItem from="1574755244231" duration="24000" />
+      <workItem from="1574755352465" duration="716000" />
+      <workItem from="1588150913996" duration="44000" />
+      <workItem from="1588162207187" duration="4000" />
+      <workItem from="1589715980836" duration="4000" />
+      <workItem from="1595238799010" duration="528000" />
+      <workItem from="1596540030850" duration="641000" />
+      <workItem from="1599529951843" duration="1445000" />
+      <workItem from="1608799315702" duration="2259000" />
+      <workItem from="1608803073625" duration="12322000" />
+      <workItem from="1609665164709" duration="20000" />
+      <workItem from="1623032600214" duration="1600000" />
+      <workItem from="1623289406283" duration="882000" />
+      <workItem from="1623307748017" duration="686000" />
+      <workItem from="1626256110658" duration="611000" />
+      <workItem from="1627086554797" duration="253000" />
+      <workItem from="1633047943440" duration="181000" />
+      <workItem from="1633147182191" duration="23986000" />
+      <workItem from="1633574462247" duration="9200000" />
+      <workItem from="1633857261336" duration="1828000" />
+      <workItem from="1634983579281" duration="607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/handler/GlobalExceptionHandler.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/handler/GlobalExceptionHandler.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/easylinker/proxy/server/app/controller/DeviceController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.security.access.AccessDeniedException" package="org.springframework.security.access" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.quartz.SchedulerException" package="org.quartz" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="user" language="JAVA" />
+        <watch expression="((AccessDeniedException)((AccessDeniedException)((AccessDeniedException)e).cause).cause).stackTrace" custom="org.springframework.security.access.AccessDeniedException" />
+        <watch expression="((HashMap.Node)resultJson.entrySet().toArray()[0]).getValue()" custom="java.util.HashMap.Node" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history>
+      <element expression="39.107.66.159" />
+    </find-history>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

@@ -1,0 +1,544 @@
+POST http://118.31.8.230:8888/hbase/jsonInsert?tableName=1&url=1
+:
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ 	"title": "南京大屠杀幸存者杨桂珍去世 终年102岁-中新网", 	"authors": { 		"author1": "张燕玲", 		"author2": "张三", 		"author3": "**" 	}, 	"article": "中新网11月6日电 据侵华日军南京大屠杀遇难同胞纪念馆微信公众号消息，南京大屠杀幸存者杨桂珍于11月5日晚去世，终年102岁。杨桂珍。 图片来源：侵华日军南京大屠杀遇难同胞纪念馆微信公众号。杨桂珍生前曾在证词中提到：“ 南京大屠杀暴行发生时， 我20岁， 日本人到处烧房子、 杀人， 我们只能藏在地洞里躲避追捕， 我为了防止被日本人施暴， 就用土灰糊在脸上。 后来， 为了躲避日本人， 我们一家跟着同乡跑反， 途中日本飞机仍在炮轰。”据了解， 一周前， 杨桂珍奶奶身体不适， 侵华日军受害者援助协会曾专门安排工作人员和省人医医生上门慰问。 " }
+
+<> 2019-11-13T095842.200.json
+
+###
+
+POST http://118.31.8.230:8888/hbase/jsonInsert?=&tableName=1&url=1
+:
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ 	"title": "南京大屠杀幸存者杨桂珍去世 终年102岁-中新网", 	"authors": { 		"author1": "张燕玲", 		"author2": "张三", 		"author3": "**" 	}, 	"article": "中新网11月6日电 据侵华日军南京大屠杀遇难同胞纪念馆微信公众号消息，南京大屠杀幸存者杨桂珍于11月5日晚去世，终年102岁。杨桂珍。 图片来源：侵华日军南京大屠杀遇难同胞纪念馆微信公众号。杨桂珍生前曾在证词中提到：“ 南京大屠杀暴行发生时， 我20岁， 日本人到处烧房子、 杀人， 我们只能藏在地洞里躲避追捕， 我为了防止被日本人施暴， 就用土灰糊在脸上。 后来， 为了躲避日本人， 我们一家跟着同乡跑反， 途中日本飞机仍在炮轰。”据了解， 一周前， 杨桂珍奶奶身体不适， 侵华日军受害者援助协会曾专门安排工作人员和省人医医生上门慰问。 " }
+
+<> 2019-11-13T095828.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-10-30T105047.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114648.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114603.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114601.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/5526a213759a8921a9ea4a9968d7e527x
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114558.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114410-1.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114410.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T114407.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T113635.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T113551.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T112008.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111656.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111653.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111534.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111531.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111511.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getRecordByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111229.200.json
+
+###
+
+GET http://39.108.153.134/api/drive/getGpsByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111157.200.json
+
+###
+
+POST http://39.108.153.134/api/drive/getGpsByHash/xxxx
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T111122.200.json
+
+###
+
+POST http://39.108.153.134/api/drive
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T110901.404.json
+
+###
+
+POST http://39.108.153.134/api/drive
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T110853.200.json
+
+###
+
+POST http://39.108.153.134
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2019-01-13T110830.405.html
+
+###
+
+POST https://plus.4ggogo.com/web-in/boss/auth.html
+:
+Cache-Control: no-cache
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>  <Request>    <Datatime>2018-10-21T14:07:33.136+08:00</Datatime>     <Authorization>      <AppKey>60c1afb8a14148629ee8a54b1156d5a7</AppKey>       <Sign>39620edb95176bd0463d40c9e932617d207e87fe3edfd7dfbb314441844381df</Sign>       <SecInterface>SHUANGCHUANG</SecInterface>       <AppSecret>68e9503c9bb84ccfb91966e0670457b4</AppSecret>    </Authorization>  </Request>
+
+<> 2018-10-21T020957.403.html
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","groupId":"1532428497255","comment":""}
+
+<> 2018-09-24T121900.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","groupId":"111","comment":""}
+
+<> 2018-09-24T121833.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","groupId":"111","comment":"2"}
+
+<> 2018-09-24T121830.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","groupId":"111"}
+
+<> 2018-09-24T121819.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001"}
+
+<> 2018-09-24T121800.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","comment":"onc2om"}
+
+<> 2018-09-24T121729.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/updateGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001"}
+
+<> 2018-09-24T121723.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001"}
+
+<> 2018-09-24T121640.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","comment2":"onc2om"}
+
+<> 2018-09-24T121632.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001 ","comment":"oncom","comment2":"onc2om"}
+
+<> 2018-09-24T121608.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","comment":"oncom","comment2":"onc2om"}
+
+<> 2018-09-24T121603.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","comment":"oncom","comment2":"oncom"}
+
+<> 2018-09-24T121559.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","comment":"oncom"}
+
+<> 2018-09-24T121531.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"GROUP0001","comment":"oncom"}
+
+<> 2018-09-24T121457.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"groupName":"BeJson","comment":"oncom"}
+
+<> 2018-09-24T121447.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+<> 2018-09-24T121310.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+<> 2018-09-24T121244.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{ groupName:"GROUP0001", comment:"备注信息" }
+
+<> 2018-09-24T121152.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{groupName: "GROUP0001", comment: "备注信息"}
+
+<> 2018-09-24T121111.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{groupName: "GROUP0001", comment: "备注信息"}
+
+<> 2018-09-24T121103.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{groupName: "GROUP0001", comment: "备注信息"}
+
+<> 2018-09-24T121048.200.json
+
+###
+
+POST https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{groupName:"GROUP0001",comment:"1"}
+
+<> 2018-09-24T121031.200.json
+
+###
+
+GET https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{groupName:"GROUP0001",comment:"1"}
+
+<> 2018-09-24T121027.200.json
+
+###
+
+GET https://smp.rui0.cn/api/user/addGroup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{groupName:"GROUP0001",comment:"1"}
+
+<> 2018-09-24T121023.200.json
+
+###
+

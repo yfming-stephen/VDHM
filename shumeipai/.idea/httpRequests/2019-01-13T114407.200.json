@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "heartRate": "12",
+      "bodyTemp": "1",
+      "diastolicPressure": {
+        "high": "80",
+        "low": "80"
+      },
+      "gps": {
+        "latitude": "30.2331",
+        "longitude": "30.2331"
+      },
+      "hash": "xxxx",
+      "speed": "23",
+      "systolicPressure": {
+        "high": "80",
+        "low": "80"
+      }
+    }
+  ],
+  "state": 1,
+  "message": "获取成功!"
+}
